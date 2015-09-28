@@ -1,5 +1,6 @@
 #**FEUP**
-#####*Engenharia de Software 2015/2016 (3º Ano)*
+#####**Engenharia de Software 2015/2016**
+######*MIEIC - 3ªAno*
 
 ##Grupo:
 - Gil Manuel Oliveira de Almeida Domingues **up201304646@fe.up.pt** 
