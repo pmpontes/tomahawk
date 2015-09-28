@@ -1,5 +1,5 @@
 #**FEUP**
-#####*ESOF 2015/2016*
+#####*Engenharia de Software 2015/2016 (3º Ano)*
 
 ##Grupo:
 - Gil Manuel Oliveira de Almeida Domingues **up201304646@fe.up.pt** 
