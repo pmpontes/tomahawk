@@ -12,8 +12,7 @@
 
 ###Conceito
 
-O *Tomahawk* é um reprodutor de mídia gratuito, *open-source* e *multi-plataforma*, que agrega todos os aspetos dos reprodutores de mídia "tradicionais" mas que visa responder também às necessidades da cultura *on demand* contemporânea. Deste modo, é capaz de procurar/reproduzir ficheiros de mídia a partir de bibliotecas locais ao utilizador bem como de vários servidores *online*, entre os quais o *Spotify* ou o *Youtube*. 
-O *Tomahawk* permite que os utilizadores armazenem os seus ficheiros de media em *clouds*, disponibilizanda ainda uma interface que permite a comunicação entre os vários utilizadores da aplicação. 
+O *Tomahawk* é um reprodutor de mídia gratuito, *open-source* e *multi-plataforma*, que agrega todos os aspetos dos reprodutores de mídia "tradicionais" mas que visa responder também às necessidades da cultura *on demand* contemporânea. Deste modo, é capaz de procurar/reproduzir ficheiros de mídia a partir de bibliotecas locais ao utilizador bem como de vários serviços *online*, entre os quais o *Spotify* e o *Youtube*.
 
 ###Funcionamento
 
