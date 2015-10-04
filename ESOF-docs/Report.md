@@ -28,10 +28,10 @@ Dito isto, e dada a natureza do projeto, consideramos o processo de desenvolvime
 
 
 ###Atividades
-####21-09-2015:
+######21-09-2015:
 - Seleção do projeto;
 
-####28-09-2015:
+######28-09-2015:
 - Configuração do Github;
 - Primeiro contacto com o projeto Tomahawk, após fork; 
 - Pedido de esclarecimento sobre os processos de desenvolvimento aos colaboradores do projeto;
