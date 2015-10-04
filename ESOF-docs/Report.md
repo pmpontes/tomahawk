@@ -17,8 +17,7 @@ O *Tomahawk* permite que os utilizadores armazenem os seus ficheiros de media em
 
 ###Funcionamento
 
-O *Tomahawk* funciona com base em *metadados*, ou seja, sempre que se pretende reproduzir um ficheiro de mídia o *Tomahawk*  processa em primeiro lugar informações relativas ao ficheiro em causa, como o nome do ficheiro, artista ou álbum. Só após o processamento destes dados é que a pesquisa  ao ficheiro entre os conteúdos disponíveis é realizada, sendo seleccionada a opção mais adequada.
-
+O *Tomahawk* funciona com base em *metadados*, ou seja, sempre que se pretende reproduzir um ficheiro de mídia o *Tomahawk*  processa em primeira instância algumas informações relativas ao ficheiro, tais como o seu nome, o nome do seu artista ou do possível álbum a que pertença. Só após o processamento destes dados é que a pesquisa ao ficheiro, entre os conteúdos disponíveis, é realizada sendo seleccionada a opção mais adequada.
 
 ###Processo de Desenvolvimento
 Desenvolver um sistema de *software* é, na sua essência, traduzir num produto de *software* uma ideia, um conceito, uma necessidade. Existem vários processos de desenvolvimento de *software* distintos, mas fases como especificação, *design*, implementação e validação são transversais a todos eles e todos eles têm como objetivo último a eficiência. O que os distingue são fatores como a forma como essas etapas se sequenciam, o tipo e frequência de entregas e a capacidade de lidar com mudanças, incertezas e riscos.
