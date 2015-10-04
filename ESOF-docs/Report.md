@@ -21,7 +21,7 @@ O *Tomahawk*, à semelhança de muitos outros reprodutores de mídia, permite a 
 
 A componente social da aplicação é implementada simulando um cliente de *streaming P2P*, permitindo aos utilizadores reproduzir ficheiros de mídia a partir dos computadores de amigos. Assim, a *playlist* de um utilizador pode conter ficheiros armazenados no seu próprio computador, no computador de um amigo, nos servidores do *YouTube* e até do *Spotify*.
 
-O *Tomahawk* consegue reproduzir músicas guardadas em bibliotecas locais, à semelhança do iTunes e Spotify. A novidade é a instalação de "*revolvers*" – *plugins* que encontram músicas para reproduzir a partir de vários serviços de *streaming*, usando APIs disponibilizadas por estes serviços.
+É ainda notável a possibilidade de instalar *"revolvers"*, isto é, *plugins* que permitem procurar e reproduzir ficheiros de mídia recorredo de vários serviços de *streaming*, que disponibilizam *APIs* posteriormente utilizadas pela aplicação.
 
 ###Processo de Desenvolvimento
 Desenvolver um sistema de *software* é, na sua essência, traduzir num produto de *software* uma ideia, um conceito, uma necessidade. Existem vários processos de desenvolvimento de *software* distintos, mas fases como especificação, *design*, implementação e validação são transversais a todos eles e todos eles têm como objetivo último a eficiência. O que os distingue são fatores como a forma como essas etapas se sequenciam, o tipo e frequência de entregas e a capacidade de lidar com mudanças, incertezas e riscos.
