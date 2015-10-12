@@ -7,6 +7,5 @@
 - Pedro Martins Pontes, **up201305367@fe.up.pt**
 - Pedro Miguel Pereira de Melo, **up201305618@fe.up.pt**
 
-<img src="https://avatars0.githubusercontent.com/u/440844?v=3&s=200" align="left" width="50">
-##  O projeto *Tomahawk*
+##  *2º Relatório*
 
