@@ -9,8 +9,8 @@
 
 ##  *2º Relatório* - Gestão de Requisitos
 
-#Levantamento de Requisitos
-#Análise de Requisitos
-#Especificação de Requisitos
-#Validação de Requisitos
+###Levantamento de Requisitos
+###Análise de Requisitos
+###Especificação de Requisitos
+###Validação de Requisitos
 
