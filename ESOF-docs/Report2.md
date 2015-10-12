@@ -7,7 +7,7 @@
 - Pedro Martins Pontes, **pontes.pedro@fe.up.pt**
 - Pedro Miguel Pereira de Melo, **up201305618@fe.up.pt**
 
-##  *2º Relatório* - Gestão de Requisitos
+##Engenharia de Requisitos
 
 ###Levantamento de Requisitos
 ###Análise de Requisitos
