@@ -14,7 +14,7 @@ Em qualquer setor de atividade, a comunicação entre cliente e prestadores de s
 
 Desde logo, o Tomahawk pressupõe, enquanto conceito, facilidade de utilização – através da simplicidade da gestão dos conteúdos áudio de vários serviços distintos – a acessibilidade a partir de diversas plataformas e a integração de uma componente social.
 
-<img src="path" alt="Diagrama de casos de utilização.">
+<img src="/../resources/use_case.png" alt="Diagrama de casos de utilização.">
  
 Dado o caráter open-source do Tomahawk, o papel de stakeholders cabe aos utilizadores, que, reportando bugs e propondo novas funcionalidades, contribuem para o crescimento e evolução do projeto.
 
