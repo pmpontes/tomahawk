@@ -14,7 +14,7 @@ Em qualquer setor de atividade, a comunicação entre cliente e prestadores de s
 
 Desde logo, o Tomahawk pressupõe, enquanto conceito, facilidade de utilização – através da simplicidade da gestão dos conteúdos áudio de vários serviços distintos – a acessibilidade a partir de diversas plataformas e a integração de uma componente social.
 
-<img src="/../resources/use_case.png" alt="Diagrama de casos de utilização.">
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/use_cases.png?raw=true" alt="Diagrama de casos de utilização.">
  
 Dado o caráter open-source do Tomahawk, o papel de stakeholders cabe aos utilizadores, que, reportando bugs e propondo novas funcionalidades, contribuem para o crescimento e evolução do projeto.
 
@@ -23,14 +23,14 @@ Para aceder à *Dashboard* é necessário efetuar o registo em https://bugs.toma
 
 ###Contribuir para o projeto
 
-<img src="path" alt="Issues da Dashboard.">
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/issues.png?raw=true" alt="Issues da Dashboard.">
  
 Na *Dashboard* do projeto podemos encontrar uma lista de issues – que podem dizer respeito a um bug – normal ou *epic* –, uma melhoria ou uma nova funcionalidade.
 
 ####Bugs
 É pedido ao utilizador, sempre que pretenda reportar um bug, uma pequena descrição do problema – por modo a facilitar a sua resolução – devendo avaliar a sua gravidade e atribuir-lhe uma prioridade:
 
-<img src="path" alt="Bugs e prioridades.">
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/bug_types.png?raw=true" alt="Bugs e prioridades.">
  
 ####Novas funcionalidades
 Ideais e sugestões para novas funcionalidades podem ser partilhadas através do Feedback Loop ou discutidas na Dashboard entre utilizadores e desenvolvedores. Antes de fazer qualquer pedido, é conveniente verificar se essa funcionalidade não foi já solicitada.
@@ -42,7 +42,7 @@ Para que uma ideia seja posta em prática ou um bug corrigido é necessário que
 
 A comunicação entre os desenvolvedores e os responsáveis pelo projeto é feita através da Dashboard, e da Agile Board, auxiliando a tomada de decisões.
 
-<img src="path" alt="Dashboard.">
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/dashboard.PNG?raw=true" alt="Dashboard.">
 
 ###Validação de requisitos
 Existe um conjunto de testes disponível na pasta do projeto, para que se possa pôr à prova o código, à medida que é desenvolvido.
