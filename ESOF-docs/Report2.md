@@ -52,3 +52,5 @@ Tipicamente, no contexto empresarial, a execução da validação de requisitos 
 Para facilitar a adição destas novas funcionalidades, foi colocada pela equipa de *developers* uma bateria de testes na pasta do projeto, com o intuito de poderem testar o código à medida que este é desenvolvido.
 
 Após terminadas, todas as contribuições são submetidas para um dos *masters* para que possam ser novamente testadas, embora de uma forma mais intensiva. Caso os resultados obtidos nesta segunda fase de testes sejam favoráveis, é feito *merge* no *branch master* e as contribuições são incorporadas no projeto.
+
+###Conclusões
