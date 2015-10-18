@@ -45,11 +45,10 @@ A comunicação entre os desenvolvedores e os responsáveis pelo projeto é feit
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/dashboard.PNG?raw=true" alt="Dashboard.">
 
 ###Validação de requisitos
-O processo de validação de requisitos pode ser visto como uma avaliação feita aos requisitos definidos, por forma a verificar se os mesmos se enquadram na filosofia do projeto. Esta avaliação visa diminuir o risco de se encontrar incoerências numa fase posterior de desenvolvimento do projeto, o que poderia levar a um maior gasto de tempo e a um maior consumo de recursos. 
+O processo de validação de requisitos é crucial na Engenharia de Requisitos, podendo ser visto como uma avaliação aplicada aos requisitos definidos, por forma a verificar se os mesmos se enquadram na filosofia pretendida para o projeto. Esta avaliação visa diminuir o risco de se encontrar incoerências nos requisitos em fases posteriores do desenvolvimento do projeto, o que por sua vez pode levar a um maior gasto de tempo e a um maior consumo de recursos. 
 
 Tipicamente, num contexto empresarial, é sobre o cliente que recai a realização desta etapa de validação de requisitos. No entanto, no caso do *Tomahawk*, é a equipa responsável pelo projeto que decide quais as novas funcionalidades a serem integradas; o que pode ser explicado, uma vez mais, recorrendo ao caráter *open-source* do projeto.
-_______________________
 
-Existe um conjunto de testes disponível na pasta do projeto, para que se possa pôr à prova o código, à medida que é desenvolvido.
+E é com o intuito de poderem testar o código à medida que este é desenvolvido que a equipa de desenvolvedores disponibiliza um conjunto de testes na pasta do projeto.
 
-Depois de completa a contribuição, deve ser submetida a um dos *masters* – em função da plataforma – para que ele possa testá-la de forma mais intensiva, e, mediante esses testes, fazer *merge* no *branch master*, incorporando-a no projeto.
+Uma vez terminada uma contribuição, esta deve ser submetida a um dos *masters* para que esta possa ser testada de uma forma mais intensiva, para eventualmente, mediante os resultados obtidos nesses testes, ser feito *merge* no *branch master*, sendo incorporada no projeto.
