@@ -45,10 +45,10 @@ A comunicação entre os desenvolvedores e os responsáveis pelo projeto é feit
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/dashboard.PNG?raw=true" alt="Dashboard.">
 
 ###Validação de requisitos
-O processo de validação de requisitos é crucial na Engenharia de Requisitos, podendo ser visto como uma avaliação aplicada aos requisitos definidos, por forma a verificar se os mesmos se enquadram na filosofia pretendida para o projeto. Esta avaliação visa diminuir o risco de se encontrar incoerências nos requisitos em fases posteriores do desenvolvimento do projeto, o que por sua vez pode levar a um maior gasto de tempo e a um maior consumo de recursos. 
+O processo de validação de requisitos é crucial na Engenharia de Requisitos, consistindo numa avaliação dos requisitos definidos para o projeto, por forma a verificar se os mesmos se enquadram na filosofia do mesmo. Esta avaliação visa diminuir o risco de serem encontradas incoerências nos requisitos em fases avançadas do desenvolvimento do projeto, o que por sua vez pode levar a um maior gasto de tempo e a um maior consumo de recursos. 
 
-Tipicamente, num contexto empresarial, é sobre o cliente que recai a realização desta etapa de validação de requisitos. No entanto, no caso do *Tomahawk*, é a equipa responsável pelo projeto que decide quais as novas funcionalidades a serem integradas; o que pode ser explicado, uma vez mais, recorrendo ao caráter *open-source* do projeto.
+Tipicamente, no contexto empresarial, a execução da validação de requisitos recai sobre o cliente. No entanto, no caso do *Tomahawk*, a equipa responsável pelo projeto é que decide quais as novas funcionalidades a serem integradas; o que pode ser explicado recorrendo uma vez mais ao caráter *open-source* do projeto.
 
-E é com o intuito de poderem testar o código à medida que este é desenvolvido que a equipa de desenvolvedores disponibiliza um conjunto de testes na pasta do projeto.
+Para facilitar a adição destas novas funcionalidades, foi colocada pela equipa de *developers* uma bateria de testes na pasta do projeto, com o intuito de poderem testar o código à medida que este é desenvolvido.
 
-Uma vez terminada uma contribuição, esta deve ser submetida a um dos *masters* para que esta possa ser testada de uma forma mais intensiva, para eventualmente, mediante os resultados obtidos nesses testes, ser feito *merge* no *branch master*, sendo incorporada no projeto.
+Após terminadas, todas as contribuições são submetidas para um dos *masters* para que possam ser novamente testadas, embora de uma forma mais intensiva. Caso os resultados obtidos nesta segunda fase de testes sejam favoráveis, é feito *merge* no *branch master* e as contribuições são incorporadas no projeto.
