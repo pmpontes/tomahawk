@@ -54,3 +54,10 @@ Para facilitar a adição destas novas funcionalidades, foi colocada pela equipa
 Após terminadas, todas as contribuições são submetidas para um dos *masters* para que possam ser novamente testadas, embora de uma forma mais intensiva. Caso os resultados obtidos nesta segunda fase de testes sejam favoráveis, é feito *merge* no *branch master* e as contribuições são incorporadas no projeto.
 
 ###Conclusões
+O processo de recolha, análise e negociação de requisitos no desenvolvimento do Tomahawk apresenta uma dinâmica distinta da estudada para este processo.
+
+A equipa do *Tomahawk* utiliza um processo de desenvolvimento "progressivo", onde o reconhecimento prévio de todos os requisitos do projeto é impossivel, dado que a criação de funcionalidades e a deteção de erros conduzem a uma constante e ciclica definição de novos requisitos, que devem por sua vez ser analisados, validados ou rejeitados, levando novamente à criação de funcionalidades.
+
+Ao contrário do que acontece tipicamente no mundo empresarial, a equipa responsável pelo desenvolvimento do *Tomahawk* é que decide se um dado requisito proposto por um utilizador, que pode também assumir um papel de colaborador, é relevante; tendo criado um conjunto de critérios necessários à validação de novos requisitos. Um destes critérios, por exemplo, é a aprovação incondicional em testes automatizados sobre o código submetido em *pull requests*. 
+
+Assim, e apesar das diferenças mencionadas face ao modelo teórico, pode afirmar-se que o desenvolvimento do projeto *Tomahawk* segue metodologias bem definidas para a gestão dos seus requisitos.
