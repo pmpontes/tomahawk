@@ -3,17 +3,17 @@
 #####MIEIC - 3ºAno
 
 ###Grupo:
-- Gil Manuel Oliveira de Almeida Domingues, **gil.domingues@fe.up.pt** 
+- Gil Manuel Oliveira de Almeida Domingues, **gil.domingues@fe.up.pt**
 - Pedro Martins Pontes, **pontes.pedro@fe.up.pt**
 - Pedro Miguel Pereira de Melo, **up201305618@fe.up.pt**
 
 ##Aquitetura de *Software*
-Como qualquer outro sistema complexo, o software deve ser construído numa base sólida. Não considerar certos cenários, não acautelar problemas comuns ou não ter em conta as consequências a longo prazo de decisões importantes pode pôr um projeto em risco. Atualmente, existem plataformas que simplificam a tarefa de construir aplicações, mas não eliminam a necessidade de desenhar a aplicação cuidadosamente, com base em cenários e requisitos específicos. 
+Como qualquer outro sistema complexo, o software deve ser construído numa base sólida. Não considerar certos cenários, não acautelar problemas comuns ou não ter em conta as consequências a longo prazo de decisões importantes pode pôr um projeto em risco. Atualmente, existem plataformas que simplificam a tarefa de construir aplicações, mas não eliminam a necessidade de desenhar a aplicação cuidadosamente, com base em cenários e requisitos específicos.
 
 Arquiteturas mal concebidas podem conduzir a instabilidade, incapacidade de suportar requisitos – presentes ou futuros –, e dificuldade em aplicar ou gerir o ambiente de produção. É aqui que entra a arquitetura de software – organização fundamental de um sistema, formado pelos seus componentes, as relações entre eles e os princípios que moldam o seu design e evolução. Arquitetura de software envolve, ainda, funcionalidade, usabilidade, resiliência, performance, reutilização, restrições económicas e tecnológicas, compromissos e preocupações estéticas (*Shaw et Garlan*, 1996).
 
 ##Vista Lógica
-A vista lógica mostra uma abstração de um sistema como um conjunto de classes ou pacotes, bem como as relações entre eles. 
+A vista lógica mostra uma abstração de um sistema como um conjunto de classes ou pacotes, bem como as relações entre eles.
 
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/logical.png?raw=true" alt="Logical view.">
 
@@ -25,11 +25,17 @@ O diagrama acima traduz uma interpretação da vista lógica do projeto *Tomahaw
 
 
 ##Vista de Implementação
-A vista de implementação mostra a decomposição do sistema em componentes e as dependências entre eles. 
+A vista de implementação mostra a decomposição do sistema em componentes e as dependências entre eles.
 
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/implementation.png?raw=true" alt="Implementation view.">
 
-Diagrama de componentes com a vista de implementação referente ao projeto. 
+O diagrama acima corresponde a uma interpretação da implementação do projeto *Tomahawk*, tendo sido divididos em cinco componentes:
+- O componente *tomahaw* corresponde ao "core" da aplicação, que vai necessitar dos restantes componentes para o seu correto funcionamento.
+- O componente *accounts* gere as contas de serviços externos e não só, que o utilizador pode associar à sua aplicação.
+- O componente *libtomahawk-playdarapi* permite o uso do serviço Playdar, que a partir de metadados de uma musica, procura forma de a reproduzir.
+- O componente *infoplugins* inclui os vários ‘*resolvers*’ – *plugins* que acedem a serviços *online* de *streaming*, usando as suas *API*’s.
+- O componente *viewpages* gere a informação que é apresentada na interface do *Tomahawk*.
+- O componente *libtomahawk* é responsável pela gestão e reprodução de música, gerindo também as playlists do utilizador.
 (considerações sobre a vista)
 
 ##Vista de Processo
@@ -37,7 +43,7 @@ Apresenta-se, de seguida, o diagrama de atividade relativo ao *Tomahawk*, no qua
 
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/activity_diagram.png?raw=true" alt="Process view.">
 
-Este diagrama representa o funcionamento da aplicação desde o instante em que o utilizador insere os dados sobre a música que deseja encontrar até ao momento em que esta é ou não encontrada nas bases de dados e consequentemente reproduzida. Após esta inserção de dados, ocorre uma coversão destes valores para metadados, para que posteriormente possam ser pesquisados nas bases de dados, o que é feito recorrendo à API *Playar*. Estas bases de dados, escolhidas pelo utilizador, são inquiridas de uma forma sequencial, sendo escolhida para fazer o *stream* da música aquela em que se verificar a primeira correspondência. Caso nenhuma das bases de dados inquiridas possua o ficheiro é mostrada ao utilizador uma mensagem de aviso e o ciclo recomeça, podendo ser pesquisada uma música diferente. Caso contrário, o utilizador pode ainda acrescentar a música a uma das suas *playlists*, para não ter de repetir todo o processo caso a deseje ouvir novamente. 
+Este diagrama representa o funcionamento da aplicação desde o instante em que o utilizador insere os dados sobre a música que deseja encontrar até ao momento em que esta é ou não encontrada nas bases de dados e consequentemente reproduzida. Após esta inserção de dados, ocorre uma coversão destes valores para metadados, para que posteriormente possam ser pesquisados nas bases de dados, o que é feito recorrendo à API *Playar*. Estas bases de dados, escolhidas pelo utilizador, são inquiridas de uma forma sequencial, sendo escolhida para fazer o *stream* da música aquela em que se verificar a primeira correspondência. Caso nenhuma das bases de dados inquiridas possua o ficheiro é mostrada ao utilizador uma mensagem de aviso e o ciclo recomeça, podendo ser pesquisada uma música diferente. Caso contrário, o utilizador pode ainda acrescentar a música a uma das suas *playlists*, para não ter de repetir todo o processo caso a deseje ouvir novamente.
 
 ##Vista de Deployment
 O seguinte diagrama mostra a vista de *deployment* referente ao projeto.
