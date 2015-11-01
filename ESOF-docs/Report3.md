@@ -37,7 +37,7 @@ Apresenta-se, de seguida, o diagrama de atividade relativo ao *Tomahawk*, no qua
 
 O seguinte diagrama de atividade mostra a vista de processo referente ao projeto.
 
-<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/process.png?raw=true" alt="Process view.">
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/activity_diagram.png?raw=true" alt="Process view.">
 
 Diagrama de componentes com a vista de processo referente ao projeto. 
 
