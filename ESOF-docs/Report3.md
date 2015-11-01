@@ -39,7 +39,7 @@ O diagrama acima corresponde a uma interpretação da implementação do projeto
 
 
 ###Vista de Processo
-Apresenta-se, de seguida, o diagrama de atividade relativo ao *Tomahawk*, no qual se visa representar o comportamento da aplicação aquando da sua execução. No entanto, dada a grande complexidade da aplicação, o diagrama de atividade elaborado foca-se apenas nos aspectos do funcionamento do *Tomahawk* de maior realce.
+Apresenta-se, de seguida, o diagrama de atividade relativo ao *Tomahawk*, no qual se visa representar o comportamento da aplicação aquando da sua execução. No entanto, dada a grande complexidade da aplicação, o diagrama de atividade elaborado foca-se apenas nos aspectos do funcionamento do *Tomahawk* de maior importância.
 
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/activity_diagram.png?raw=true" alt="Process view.">
 
@@ -50,7 +50,7 @@ O seguinte diagrama mostra a vista de *deployment* referente ao projeto.
 
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/deployment.png?raw=true" alt="Deployment view.">
 
-Finalmente, este diagrama representa os diferentes nós de *hardware* no sistema do projeto *Tomahawk*. O nó *User's Device* corresponde ao *hardware* do utilizador, isto é, o seu computador ou smartphone com a aplicação *Tomahawk*. O nó *1st or 3rd Party Server* representa os servidores ao qual o *Tomahawk* tem acesso através dos plugins instalados pelo utilizador na aplicação principal. Estes servidores podem conter dois artefactos: metadados e ficheiros de áudio, que juntos possiblitam ao utilizador uma reprodução por *streaming* de músicas que o utilizador não tenha no seu dispositivo. Apesar dos servidores em questão são maioritariamente de outros serviços, existe o serviço dedicado do *Tomahawk*, o *Hatchet*, que adiciona ao *Tomahawk* as já mencionadas capacidades de rede social.
+Este diagrama representa os diferentes nós de *hardware* no sistema do projeto *Tomahawk*. O nó *User's Device* corresponde ao *hardware* do utilizador, isto é, o seu computador ou smartphone com a aplicação *Tomahawk*. O nó *1st or 3rd Party Server* representa os servidores ao qual o *Tomahawk* tem acesso através dos *'resolvers'* - os *plugins* instalados pelo utilizador na aplicação principal. Estes servidores podem conter dois artefactos: metadados e ficheiros de áudio, que juntos possiblitam ao utilizador uma reprodução por *streaming* de músicas que o utilizador não tenha no seu dispositivo. Apesar de os servidores em questão serem maioritariamente de outros serviços, existe o serviço dedicado do *Tomahawk*, o *Hatchet*, que adiciona ao *Tomahawk* a já mencionada componente social.
 
 
 ###Conclusões
@@ -59,8 +59,10 @@ Importa, primeiramente, salvaguardar que os diagramas apresentados são resultad
 
 A vista lógica traduz-se num diagrama de pacotes, mostrando os pacotes divididos de acordo com as funcionalidades que implementam: o núcleo essencial da aplicação, os ‘resolvers’, a componente social e a interface gráfica.
 
-No que respeita à vista de implementação, expressa por um diagrama de componentes, (…)
+No que respeita à vista de implementação, expressa por um diagrama de componentes, dividiram-se alguns dos pacotes identificados em componentes distintos.
 
-Com a vista de processo ilustra-se o funcionamento da aplicação desde o instante em que o utilizador insere os dados sobre a música que deseja encontrar até ao momento em que esta é ou não encontrada nas bases de dados – e, consequentemente, reproduzida
+Com a vista de processo ilustra-se o funcionamento da aplicação desde o instante em que o utilizador insere os dados sobre a música que deseja encontrar até ao momento em que esta é ou não encontrada nas bases de dados – e, consequentemente, reproduzida.
 
-Em suma, considera-se que o projeto apresenta uma estruturação satisfatória, apesar de a tarefa de extração da informação necessária à construção dos diagramas apresentados não ter sido simples.
+O diagrama de componentes - correspondente à vista de *deployment* - representa os diferentes nós de *hardware* no sistema do projeto *Tomahawk*: *User's Device* - o *hardware* do utilizador -, e *1st or 3rd Party Server* - os servidores ao qual o *Tomahawk* tem acesso através dos *'resolvers'*.
+
+Finalmente, considera-se que o projeto apresenta uma estruturação satisfatória, apesar de a tarefa de extração da informação necessária à construção dos diagramas apresentados não ter sido simples.
