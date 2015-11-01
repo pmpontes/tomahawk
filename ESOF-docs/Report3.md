@@ -50,4 +50,4 @@ O seguinte diagrama mostra a vista de *deployment* referente ao projeto.
 
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/deployment.png?raw=true" alt="Deployment view.">
 
-(considerações sobre a vista)
+Finalmente, este diagrama representa os diferentes nós de *hardware* no sistema do projeto *Tomahawk*. O nó *User's Device* corresponde ao *hardware* do utilizador, isto é, o seu computador ou smartphone com a aplicação *Tomahawk*. O nó *1st or 3rd Party Server* representa os servidores ao qual o *Tomahawk* tem acesso através dos plugins instalados pelo utilizador na aplicação principal. Estes servidores podem conter dois artefactos: metadados e ficheiros de áudio, que juntos possiblitam ao utilizador uma reprodução por *streaming* de músicas que o utilizador não tenha no seu dispositivo. Apesar dos servidores em questão são maioritariamente de outros serviços, existe o serviço dedicado do *Tomahawk*, o *Hatchet*, que adiciona ao *Tomahawk* as já mencionadas capacidades de rede social.
