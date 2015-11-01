@@ -51,3 +51,16 @@ O seguinte diagrama mostra a vista de *deployment* referente ao projeto.
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/deployment.png?raw=true" alt="Deployment view.">
 
 (considerações sobre a vista)
+
+##Conclusões
+Conclusão
+Importa, primeiramente, salvaguardar que os diagramas apresentados são resultado de uma possível interpretação do projeto.
+
+A vista lógica traduz-se num diagrama de pacotes, mostrando os pacotes divididos de acordo com as funcionalidades que implementam: o núcleo essencial da aplicação, os ‘resolvers’, a componente social e a interface gráfica.
+
+No que respeita à vista de implementação, expressa por um diagrama de componentes, (…)
+
+Com a vista de processo ilustra-se o funcionamento da aplicação desde o instante em que o utilizador insere os dados sobre a música que deseja encontrar até ao momento em que esta é ou não encontrada nas bases de dados – e, consequentemente, reproduzida
+
+Em suma, considera-se que o projeto apresenta uma estruturação satisfatória, apesar de a tarefa de extração da informação necessária à construção dos diagramas apresentados não ter sido simples.
+
