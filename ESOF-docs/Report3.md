@@ -29,7 +29,7 @@ A vista de implementação mostra a decomposição do sistema em componentes e a
 
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/implementation.png?raw=true" alt="Implementation view.">
 
-O diagrama acima corresponde a uma interpretação da implementação do projeto *Tomahawk*, tendo sido dividido em cinco componentes:
+O diagrama acima corresponde a uma interpretação da implementação do projeto *Tomahawk*, tendo sido dividido em seis componentes:
 - O componente *tomahawk* corresponde ao núcleo da aplicação, que vai necessitar dos restantes componentes para o seu correto funcionamento;
 - O componente *accounts* gere as contas de serviços externos e não só, que o utilizador pode associar à sua aplicação.
 - O componente *libtomahawk-playdarapi* permite o uso do serviço *Playdar*, que a partir de metadados de uma musica, procura forma de a reproduzir.
