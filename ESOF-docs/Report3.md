@@ -35,13 +35,9 @@ Diagrama de componentes com a vista de implementação referente ao projeto.
 ##Vista de Processo
 Apresenta-se, de seguida, o diagrama de atividade relativo ao *Tomahawk*, no qual se visa representar o comportamento da aplicação aquando da sua execução. No entanto, dada a grande complexidade da aplicação, o diagrama de atividade elaborado foca-se apenas nos aspectos do funcionamento do *Tomahawk* de maior realce.
 
-O seguinte diagrama de atividade mostra a vista de processo referente ao projeto.
-
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/activity_diagram.png?raw=true" alt="Process view.">
 
-Diagrama de componentes com a vista de processo referente ao projeto. 
-
-(considerações sobre a vista)
+Este diagrama representa o funcionamento da aplicação desde o instante em que o utilizador insere os dados sobre a música que deseja encontrar até ao momento em que esta é ou não encontrada nas bases de dados e consequentemente reproduzida. Após esta inserção de dados, ocorre uma coversão destes valores para metadados, para que posteriormente possam ser pesquisados nas bases de dados. As bases de dados são inquiridas de uma forma sequencial, sendo escolhida para fazer o *stream* da música aquela em que se verificar a primeira correspondência. Caso nenhuma das bases de dados inquiridas possua o ficheiro é mostrado ao utilizador uma mensagem de aviso e o ciclo recomeça. Caso contrário, o utilizador pode ainda acrescentar a música a uma das suas *playlists*, para não ter de efectuar uma nova procura caso a deseje ouvir novamente. 
 
 ##Vista de Deployment
 O seguinte diagrama mostra a vista de *deployment* referente ao projeto.
