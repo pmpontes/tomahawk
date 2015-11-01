@@ -39,7 +39,7 @@ O diagrama acima corresponde a uma interpretação da implementação do projeto
 
 
 ###Vista de Processo
-Apresenta-se, de seguida, o diagrama de atividade relativo ao *Tomahawk*, no qual se visa representar o comportamento da aplicação aquando da sua execução. No entanto, dada a grande complexidade da aplicação, o diagrama de atividade elaborado foca-se apenas nos aspectos do funcionamento do *Tomahawk* de maior importância.
+Apresenta-se, de seguida, o diagrama de atividade relativo ao *Tomahawk*, no qual se visa representar o comportamento da aplicação aquando da sua execução. No entanto, dada a complexidade da aplicação, o diagrama de atividade elaborado foca-se apenas nos aspectos do funcionamento do *Tomahawk* de maior importância.
 
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/activity_diagram.png?raw=true" alt="Process view.">
 
