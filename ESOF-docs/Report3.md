@@ -15,16 +15,19 @@ Arquiteturas mal concebidas podem conduzir a instabilidade, incapacidade de supo
 ##Vista Lógica
 A vista lógica mostra uma abstração de um sistema como um conjunto de classes ou pacotes, bem como as relações entre eles. 
 
---img
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/logical.png?raw=true" alt="Logical view.">
 
-Diagrama de pacotes representativo da vista lógica referente ao *Tomahawk*.
+O diagrama acima traduz uma interpretação da vista lógica do projeto *Tomahawk*, composta por quatro pacotes:
+- O pacote *tomahawk* corresponde às funções essenciais da aplicação – no que respeita à reprodução de conteúdos multimédia.
+- O pacote *infoplugins* inclui os vários ‘*resolvers*’ – *plugins* que acedem a serviços *online* de *streaming*, usando as suas *API*’s.
+- O pacote *accounts* compreende toda a gestão da componente social da aplicação – nomeadamente, a interação entre os utilizadores.
+- O pacote *user interface* corresponde à *GUI* dos vários ambientes – *Linux, Mac* e *Windows*.
 
-(considerações sobre a vista)
 
 ##Vista de Implementação
 A vista de implementação mostra a decomposição do sistema em componentes e as dependências entre eles. 
 
---img
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/implementation.png?raw=true" alt="Implementation view.">
 
 Diagrama de componentes com a vista de implementação referente ao projeto. 
 (considerações sobre a vista)
@@ -34,7 +37,7 @@ Apresenta-se, de seguida, o diagrama de atividade relativo ao *Tomahawk*, no qua
 
 O seguinte diagrama de atividade mostra a vista de processo referente ao projeto.
 
---img
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/process.png?raw=true" alt="Process view.">
 
 Diagrama de componentes com a vista de processo referente ao projeto. 
 
@@ -43,6 +46,6 @@ Diagrama de componentes com a vista de processo referente ao projeto.
 ##Vista de Deployment
 O seguinte diagrama mostra a vista de *deployment* referente ao projeto.
 
---img
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/deployment.png?raw=true" alt="Deployment view.">
 
 (considerações sobre a vista)
