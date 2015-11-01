@@ -20,7 +20,7 @@ A vista lógica mostra uma abstração de um sistema como um conjunto de classes
 O diagrama acima traduz uma interpretação da vista lógica do projeto *Tomahawk*, composta por quatro pacotes:
 - O pacote *tomahawk* corresponde às funções essenciais da aplicação – no que respeita à reprodução de conteúdos multimédia.
 - O pacote *infoplugins* inclui os vários ‘*resolvers*’ – *plugins* que acedem a serviços *online* de *streaming*, usando as suas *API*’s.
-- O pacote *accounts* compreende toda a gestão da componente social da aplicação – nomeadamente, a interação entre os utilizadores.
+- O pacote *accounts* compreende toda a gestão da componente social da aplicação – nomeadamente, a interação entre os utilizadores, além da gestão de contas de outros serviços *online* de *streaming*.
 - O pacote *user interface* corresponde à *GUI* dos vários ambientes – *Linux, Mac* e *Windows*.
 
 
@@ -29,21 +29,21 @@ A vista de implementação mostra a decomposição do sistema em componentes e a
 
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/implementation.png?raw=true" alt="Implementation view.">
 
-O diagrama acima corresponde a uma interpretação da implementação do projeto *Tomahawk*, tendo sido divididos em cinco componentes:
-- O componente *tomahawk* corresponde ao núcleo da aplicação, que vai necessitar dos restantes componentes para o seu correto funcionamento.
+O diagrama acima corresponde a uma interpretação da implementação do projeto *Tomahawk*, tendo sido dividido em cinco componentes:
+- O componente *tomahawk* corresponde ao núcleo da aplicação, que vai necessitar dos restantes componentes para o seu correto funcionamento;
 - O componente *accounts* gere as contas de serviços externos e não só, que o utilizador pode associar à sua aplicação.
-- O componente *libtomahawk-playdarapi* permite o uso do serviço Playdar, que a partir de metadados de uma musica, procura forma de a reproduzir.
+- O componente *libtomahawk-playdarapi* permite o uso do serviço *Playdar*, que a partir de metadados de uma musica, procura forma de a reproduzir.
 - O componente *infoplugins* inclui os vários ‘*resolvers*’ – *plugins* que acedem a serviços *online* de *streaming*, usando as suas *API*’s.
 - O componente *viewpages* gere a informação que é apresentada na interface do *Tomahawk*.
 - O componente *libtomahawk* é responsável pela gestão e reprodução de música, gerindo também as playlists do utilizador.
-(considerações sobre a vista)
+
 
 ###Vista de Processo
 Apresenta-se, de seguida, o diagrama de atividade relativo ao *Tomahawk*, no qual se visa representar o comportamento da aplicação aquando da sua execução. No entanto, dada a grande complexidade da aplicação, o diagrama de atividade elaborado foca-se apenas nos aspectos do funcionamento do *Tomahawk* de maior realce.
 
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/activity_diagram.png?raw=true" alt="Process view.">
 
-Este diagrama representa o funcionamento da aplicação desde o instante em que o utilizador insere os dados sobre a música que deseja encontrar até ao momento em que esta é ou não encontrada nas bases de dados e consequentemente reproduzida. Após esta inserção de dados, ocorre uma coversão destes valores para metadados, para que posteriormente possam ser pesquisados nas bases de dados, o que é feito recorrendo à API *Playar*. Estas bases de dados, escolhidas pelo utilizador, são inquiridas de uma forma sequencial, sendo escolhida para fazer o *stream* da música aquela em que se verificar a primeira correspondência. Caso nenhuma das bases de dados inquiridas possua o ficheiro é mostrada ao utilizador uma mensagem de aviso e o ciclo recomeça, podendo ser pesquisada uma música diferente. Caso contrário, o utilizador pode ainda acrescentar a música a uma das suas *playlists*, para não ter de repetir todo o processo caso a deseje ouvir novamente.
+Este diagrama representa o funcionamento da aplicação desde o instante em que o utilizador insere os dados sobre a música que deseja encontrar até ao momento em que esta é ou não encontrada nas bases de dados e consequentemente reproduzida. Após esta inserção de dados, ocorre uma coversão destes valores para metadados, para que posteriormente possam ser pesquisados nas bases de dados, o que é feito recorrendo à *API* *Playdar*. Estas bases de dados, escolhidas pelo utilizador, são inquiridas de uma forma sequencial, sendo escolhida para fazer o *stream* da música aquela em que se verificar a primeira correspondência. Caso nenhuma das bases de dados inquiridas possua o ficheiro é mostrada ao utilizador uma mensagem de aviso e o ciclo recomeça, podendo ser pesquisada uma música diferente. Caso contrário, o utilizador pode ainda acrescentar a música a uma das suas *playlists*, para não ter de repetir todo o processo caso a deseje ouvir novamente.
 
 ###Vista de Deployment
 O seguinte diagrama mostra a vista de *deployment* referente ao projeto.
