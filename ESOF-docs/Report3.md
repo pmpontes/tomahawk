@@ -30,7 +30,7 @@ Diagrama de componentes com a vista de implementação referente ao projeto.
 (considerações sobre a vista)
 
 ##Vista de Processo
-Apresenta-se, de seguida, o diagrama de atividade do projeto. Dada a complexidade da aplicação e que não se pretende, exaustivamente, detalhar o comportamento da mesma (....)
+Apresenta-se, de seguida, o diagrama de atividade relativo ao *Tomahawk*, no qual se visa representar o comportamento da aplicação aquando da sua execução. No entanto, dada a grande complexidade da aplicação, o diagrama de atividade elaborado foca-se apenas nos aspectos do funcionamento do *Tomahawk* de maior realce.
 
 O seguinte diagrama de atividade mostra a vista de processo referente ao projeto.
 
