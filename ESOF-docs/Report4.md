@@ -18,15 +18,15 @@ Quão testável é um programa? A testabilidade de um programa é condicionada p
 
 Segue-se uma discussão sobre o quão testável é o projeto - acompanhada por exemplos e outras referências, sempre que tal se considere pertinente.
 
--Controlabilidade
+- Controlabilidade
 Este critério define-se como o grau a que é possível controlar o estado dos componentes a serem testados. 
 
 
--Observabilidade
+- Observabilidade
 A observabilidade determina o quão observáveis são os resultados de um teste. 
 
 
--«Isolabilidade»
+- «Isolabilidade»
 Não sendo parte da Língua Portuguesa, o termo «isolabilidade» respeita ao grau de testabilidade de um componente, isoladamente.
 
 
