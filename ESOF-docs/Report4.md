@@ -1,9 +1,18 @@
-####Verificação e Validação de Software
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ5v37xur40kL994HczH-li9mzyHP47jhvORpy-vNoHzatPjm11gSvwLVU" alt="FEUP">
+####**Engenharia de Software 2015/2016**
+#####MIEIC - 3ºAno
+
+###Grupo:
+- Gil Manuel Oliveira de Almeida Domingues, **gil.domingues@fe.up.pt**
+- Pedro Martins Pontes, **pontes.pedro@fe.up.pt**
+- Pedro Miguel Pereira de Melo, **up201305618@fe.up.pt**
+
+###Verificação e Validação de *Software*
 Num contexto de desenvolvimento de software, é frequente questionarmos se se está a desenvolver o produto certo e, se isso está a ser feito corretamente. Responder a estas questões implica aplicar processos de verificação e validação, por forma a garantir que o produto se adequa ao seu propósito – isto é, se, por um lado, faz aquilo que é necessário, e, por outro, se o faz bem.
-Procede-se, pois, à análise dos processos de verificação e validação aplicados no desenvolvimento do projeto Tomahawk, discutindo-se o seu grau de testabilidade e apresentando algumas estatísticas relacionadas com esses processos.
+Importa, pois, analisar os processos de verificação e validação aplicados no desenvolvimento do projeto Tomahawk, discutindo-se o seu grau de testabilidade e apresentando algumas estatísticas relacionadas com esses processos.
 
 
-###Grau de testabilidade
+####Grau de testabilidade
 Quão testável é um programa? A testabilidade de um programa é condicionada por fatores como a controlabilidade dos seus componentes, a observabilidade dos resultados de um teste, o quão isoláveis e delimitáveis são os seus componentes e respetivas responsabilidades, o quão heterogéneo e fácil de entender é o sistema.
 A discussão sobre o quão testável é o projeto - isto é, até que ponto é possível verificar e validar a sua implementação – é acompanhada por exemplos e outras referências, sempre que tal se considere pertinente.
 
@@ -36,7 +45,7 @@ Critério que relaciona o uso de diferentes tecnologias com a necessidade de mé
 Perante as considerações acima, é possível concluir que (…)
 (Discuss how 'testable' is the program. Discuss how to improve the testability of software components.)
 
-###Testes em números
+####Testes em números
 (identificar diversos tipos de teste)
 Antes de apresentar números, é pertinente interrogar (…)
 Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, % coverage)
@@ -47,6 +56,7 @@ Análise de cobertura é, sobretudo, uma ferramenta de revisão de código, na m
 A ideia por trás de um teste de cobertura por mutação é a geração de mutações no código a ser testado, como negação de condições boleanas ou operações com inteiros – sendo que um conjunto de testes é bom quando as alterações introduzidas despoletarem a falha de um elevado número teste.
 http://avandeursen.com/2013/11/19/test-coverage-not-for-managers/
 
-###Escolher um bug fácil ou já corrigido
+####Processo de identificação e correção de um *Bug*
+Escolher um bug fácil ou já corrigido
 
-##Análise Crítica
+####Análise Crítica
