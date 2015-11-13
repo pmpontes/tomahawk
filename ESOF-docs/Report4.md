@@ -8,14 +8,15 @@
 - Pedro Miguel Pereira de Melo, **up201305618@fe.up.pt**
 
 ###Verificação e Validação de *Software*
-Num contexto de desenvolvimento de software, é frequente questionarmos se se está a desenvolver o produto certo e, se isso está a ser feito corretamente. Responder a estas questões implica aplicar processos de verificação e validação, por forma a garantir que o produto se adequa ao seu propósito – isto é, se, por um lado, faz aquilo que é necessário, e, por outro, se o faz bem.
-Importa, pois, analisar os processos de verificação e validação aplicados no desenvolvimento do projeto Tomahawk, discutindo-se o seu grau de testabilidade e apresentando algumas estatísticas relacionadas com esses processos.
+Num contexto de desenvolvimento de *software*, é frequente questionarmos se se está a desenvolver o produto certo e se isso está a ser feito corretamente. Responder a estas questões implica aplicar processos de verificação e validação, por forma a garantir que o produto se adequa ao seu propósito – isto é, se, por um lado, faz aquilo que é necessário, e, por outro, se o faz bem.
+
+Importa, pois, analisar os processos de verificação e validação aplicados no desenvolvimento do projeto Tomahawk, discutindo-se o seu grau de testabilidade e apresentando algumas estatísticas relacionadas com esses processos. ##Adicionalmente, ilustra-se o processo de deteção e correção de um *bug*.
 
 
 ####Grau de testabilidade
 Quão testável é um programa? A testabilidade de um programa é condicionada por fatores como a controlabilidade dos seus componentes, a observabilidade dos resultados de um teste, o quão isoláveis e delimitáveis são os seus componentes e respetivas responsabilidades, o quão heterogéneo e fácil de entender é o sistema.
-A discussão sobre o quão testável é o projeto - isto é, até que ponto é possível verificar e validar a sua implementação – é acompanhada por exemplos e outras referências, sempre que tal se considere pertinente.
 
+Segue-se uma discussão sobre o quão testável é o projeto - acompanhada por exemplos e outras referências, sempre que tal se considere pertinente.
 
 -Controlabilidade
 Este critério define-se como o grau a que é possível controlar o estado dos componentes a serem testados. 
