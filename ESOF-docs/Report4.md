@@ -18,7 +18,7 @@ Importa, pois, analisar os processos de verificação e validação aplicados no
  
  A testabilidade de um programa não pode ser *medida* diretamente, sendo condicionada por diversos fatores nomeadamente a controlabilidade dos seus componentes, a observabilidade dos resultados de um teste, o quão isoláveis e delimitáveis são os seus componentes e respetivas responsabilidades, ou o quão heterogéneo e fácil de entender é o sistema.
 
-Seguidamente, discute-se o quão testável é o *Tomahawk*.
+Segue-se a seguir uma descrição do quão testável é o *Tomahawk*.
 
 - **Controlabilidade**:
 
