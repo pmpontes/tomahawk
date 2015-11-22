@@ -10,13 +10,12 @@
 ###Verificação e Validação de *Software*
 Num contexto de desenvolvimento de *software*, é frequente questionarmos se se está a desenvolver o produto certo e se isso está a ser feito corretamente. Responder a estas questões implica aplicar processos de verificação e validação, por forma a garantir que o produto se adequa ao seu propósito – isto é, se, por um lado, faz aquilo que é necessário, e, por outro, se o faz bem.
 
-Importa, pois, analisar os processos de verificação e validação aplicados no desenvolvimento do projeto Tomahawk, discutindo-se o seu grau de testabilidade e apresentando algumas estatísticas relacionadas com esses processos. ##Adicionalmente, ilustra-se o processo de deteção e correção de um *bug*.
-
+Importa, pois, analisar os processos de verificação e validação aplicados no desenvolvimento do projeto *Tomahawk*.
 
 ####Grau de testabilidade
 Quão testável é um programa? A testabilidade de um programa é condicionada por fatores como a controlabilidade dos seus componentes, a observabilidade dos resultados de um teste, o quão isoláveis e delimitáveis são os seus componentes e respetivas responsabilidades, o quão heterogéneo e fácil de entender é o sistema.
 
-Segue-se uma discussão sobre o quão testável é o projeto - acompanhada por exemplos e outras referências, sempre que tal se considere pertinente.
+Seguidamente, discute-se o quão testável é o projeto - por meio de exemplos e outras referências, sempre que tal se considere pertinente.
 
 - Controlabilidade
 
@@ -30,7 +29,7 @@ A observabilidade determina o quão observáveis são os resultados de um teste.
 
 - «Isolabilidade»
 
-Não sendo parte da Língua Portuguesa, o termo «isolabilidade» respeita ao grau de testabilidade de um componente, isoladamente.
+Não sendo parte da Língua Portuguesa, o termo «isolabilidade» respeita ao grau de testabilidade de um componente, isoladamene.
 
 
 - Separação de responsabilidades
