@@ -39,12 +39,14 @@ Este critério está intimamente ligado ao anterior, e implica a delimitação d
 
 - **Inteligibilidade**:
 
-  Do inglês *Understandability*, este critério avalia a facilidade com que é possível compreender a estrutura e funcionamento de qualquer componente que esteja ser testado, baseando-se quer na qualidade com que este se encontra documentado, quer pelo facto do código a ele relativo ser autoexplicativo.
-  O código fonte do *Tomahawk* encontra-se muito pouco documentado! Apartando os cabeçalhos dos ficheros - onde estão contidas apenas informação relativas aos autores e de matérias legais relativas ao uso da aplicação e do seu código - os poucos e esparsos comentários não são esclaredores o suficiente para permitirem uma boa compreensão do mesmo código, pelo menos de uma forma rápida e intuitiva. Raras são as estruturas e funções comentadas, existindo ficheiros de código que, possuindo mais de mil linhas de código, não contêm mais do que um dezena de comentários.   Pode assim afirmar-se que o código do *Tomahawk* é pouco inteligivel.    
+  Do inglês *Understandability*, este critério avalia a facilidade com que é possível compreender a estrutura e o funcionamento de qualquer componente que esteja a ser testado, baseando-se quer na qualidade com que este se encontra documentado, quer pelo facto do código a ele relativo ser autoexplicativo.
+  O código fonte do *Tomahawk* encontra-se muito pouco documentado! Apartando os cabeçalhos dos ficheiros - onde estão contidas apenas informação relativas aos autores e de matérias legais relativas ao uso da aplicação e do seu código - os poucos e esparsos comentários não são esclaredores o suficiente para permitirem uma boa compreensão do mesmo código, pelo menos de uma forma rápida e intuitiva. Raras são as estruturas, módulos e funções comentadas, existindo ficheiros de código que, possuindo mais de mil linhas de código, não contêm mais do que um dezena de comentários.   Pode assim afirmar-se que o código do *Tomahawk* Não é inteligivel.    
 
 - **Heterogeneidade**:
 
-  Do inglẽs *Heterogeneity*, este critério avalia a necessidade de serem realizados em paralelo diversos métodos e ferramentas de teste, devido ao uso de diferentes tecnologias.
+  Do inglês *Heterogeneity*, este critério avalia a necessidade de serem realizados em paralelo diversos métodos e ferramentas de teste, devido ao uso de diferentes tecnologias.
+  O *Tomahawk* é uma aplicação multiplataforma, pelo que teve de ser desenvolvido tendo em mente que diferentes plataformas funcionam de maneiras distintas. Surge então a necessidade de, para cada plataforma, serem criados bancos de testes adequados para o ambiente em que são vão executados.   
+  Além disso, o *Tomahawk* depende também de *APIs* externas, como por exemplo a *Playdar*...   
   
 ________________________________________________________________________
 Perante as considerações acima, é possível concluir que (…)
