@@ -14,30 +14,30 @@ Importa, pois, analisar os processos de verificação e validação aplicados no
 
 ####Grau de testabilidade
 
- O **Grau de Testabilidade**  é uma propriedade extrínseca a todos os programas, e é tanto maior quanto, dentro de um dado contexto de teste, o programa puder ser testado; sendo mais fácil encontrar uma falha num programa que apresente um elevado grau de testabilidade do que num programa com um reduzido grau de testabiliade.
+ O grau de testabilidade é uma propriedade extrínseca de todos os programas, e é tanto maior quanto, dentro de um dado contexto de teste, o programa puder ser testado; sendo mais fácil encontrar uma falha nos programas que apresentam um elevado grau de testabilidade do que nos programas com um reduzido grau de testabilidade.
  
- A testabilidade de um programa não pode ser *medida* diretamente, sendo condicionada por diversos fatores nomeadamente a controlabilidade dos seus componentes, a observabilidade dos resultados de um teste, o quão isoláveis e delimitáveis são os seus componentes e respetivas responsabilidades, ou o quão heterogéneo e fácil de entender é o sistema.
+ A testabilidade de um programa não pode ser "medida" diretamente, estando esta "medição" condicionada por diversos fatores como a controlabilidade dos seus componentes, a observabilidade dos resultados de um teste, o quão isoláveis e delimitáveis são os seus componentes e respetivas responsabilidades, o quão heterogéneo é o sistema ou o quão legível é esse mesmo sistema.
 
 Segue-se a seguir uma descrição do quão testável é o *Tomahawk*.
 
 - **Controlabilidade**:
 
-  Do inglês *Controllability*, este critério avalia o grau a que é possível controlar o estado dos componentes a serem testados. 
+  Do inglês *Controllability*, este critério avalia o grau em que é possível controlar o estado dos componentes a serem testados. 
   O código do *Tomahawk* encontra-se estruturado em vários pacotes distintos, encarregados da realização de tarefas distintas (como abordado no [Relatório 3](https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/Report3.md)). Para além disso, os ficheiros contidos nestes pacotes encontram-se por sua vez agrupados em pacotes mais pequenos, encarregados de dividar as complexas tarefas em tarefas cada vez mais simples. 
-  Esta hierarquia dos conteúdos permite testar modularmente os componentes da aplicação, permitindo obter um maior controlo sobre o estado do componente a ser testado.
+  Esta hierarquia dos conteúdos permite testar modularmente os componentes da aplicação - dado que estes funcionam se forma independente uns dos outros - permitindo obter um maior controlo sobre o estado do componente a ser testado.
 
 - **Observabilidade**:
 
   Do inglês *Observability*, este critério avalia o quão visíveis são os resultados de um teste.
   Após uma procura cuidada ao código da aplicação, verificamos que a equipa do *Tomahawk* não criou um único teste, embora tenham desenvolvido um mecanismo para a criação e manutenção destes. 
-  Foi-nos revelado por um dos membros da equipa de desenvolvedores, após esta ter sido inquirida sobre a situação descrita, que dentro do seu conhecimento não tinham sido criados testes.
+  Foi-nos revelado por um dos membros da equipa de desenvolvedores, após esta ter sido inquirida sobre a situação descrita, que dentro do seu conhecimento não tinham sido criados quaisqueres testes.
 
 - **Isolabilidade** e **Separação de responsabilidades**:
  
- Do inglês *Isolateability*, este critério avalia o grau em que um componente pode ser testado de forma isolada de todos os outros componentes.
- Do inglês *Separation of concerns*, este critério encontra-se intimamente ligado ao anterior, e avalia o grau em que é possível testar de forma independente um componente, devido a este ter uma responsabilidade bem definida.
+ Estes dois critérios encontram-se intimamente ligados.
+ O nome do primeiro provém do inglês *Isolateability* e avalia o grau em que um componente pode ser testado de forma isolada de todos os outros componentes, enquanto que o segundo, proveniente do inglês *Separation of concerns*, avalia o grau em que é possível testar de forma independente um componente, devido a este ter uma responsabilidade bem definida.
+ Tal como dito acima, o código do *Tomahawk* encontra-se estruturado em pacotes que possuem tarefas destintas. Esta organização permite que o código seja mais legível, menos confuso e portanto mais fácil de testar de forma isoalda.
   
-
 - **Inteligibilidade**:
 
   Do inglês *Understandability*, este critério avalia a facilidade com que é possível compreender a estrutura e o funcionamento de qualquer componente que esteja a ser testado, baseando-se quer na qualidade com que este se encontra documentado, quer pelo facto do código a ele relativo ser autoexplicativo.
@@ -51,10 +51,7 @@ Segue-se a seguir uma descrição do quão testável é o *Tomahawk*.
   Além disso, o *Tomahawk* depende não só de *APIs* externas, como por exemplo a *Playdar* mas também dos *plugins* criados e necessários ao funcionamento da aplicação, sendo necessários distintos testes para testar todos estes distintos componentes.    
   Pode assim afirmar-se que o *Tomahawk* é heterogéneo.
   
-________________________________________________________________________
-Perante as considerações acima, é possível concluir que (…)
-(Discuss how 'testable' is the program. Discuss how to improve the testability of software components.)
-_________________________________________________________________________
+Perante as observações feitas acima, conclui-se que o grau de testabilidade do *Tomahawk* poderá ser aumentado favoravelmente se fossem verdadeiramente criados testes unitários e se o código fosse acompanhado de uma boa documentação, o que - em parceria com a estruturação que o projeto já apresenta - permitiria aumentar não só a observabilidade do código, a  sua inteligibilidade; contribuindo assim para que este possa ser mais facilmente testável.
 
 ####Testes em números
 (identificar diversos tipos de teste)
