@@ -37,16 +37,14 @@ Não sendo parte da Língua Portuguesa, o termo «isolabilidade» respeita ao gr
 Este critério está intimamente ligado ao anterior, e implica a delimitação de responsabilidades entre os vários componentes a ser testados.
 
 
-- Inteligibilidade
+- **Inteligibilidade**:
 
-Medida do quão simples de compreender é o componente a testar – seja pela qualidade da sua documentação ou pelo facto de ser autoexplicativo.
+  Do inglês *Understandability*, este fator avalia a facilidade com que é possível compreender a estrutura e funcionamento de qualquer componente que esteja ser testado, baseando-se quer na qualidade com que se encontra documentado quer pelo facto do código ser autoexplicativo.
+  O código fonte do *Tomahawk* encontra-se muito pouco documentado! Apartando os cabeçalhos dos ficheros - onde estão contidas apenas informação relativas aos autores e de matérias legais relativas ao uso da aplicação e do seu código - os poucos e esparsos comentários não são esclaredores o suficiente para permitirem uma boa compreensão do mesmo código, pelo menos de uma forma rápida e intuitiva. Raras são as estruturas e funções comentadas, existindo ficheiros de código que, possuindo mais de mil linhas de código, não contêm mais do que um dezena de comentários.   Pode assim afirmar-se que o código do *Tomahawk* é pouco inteligivel.    
 
-
-- Heterogeneidade
+- **Heterogeneidade**
 
 Critério que relaciona o uso de diferentes tecnologias com a necessidade de métodos de teste diversificados.
-
-
 
 Perante as considerações acima, é possível concluir que (…)
 (Discuss how 'testable' is the program. Discuss how to improve the testability of software components.)
