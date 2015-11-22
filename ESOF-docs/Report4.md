@@ -22,6 +22,7 @@ Seguidamente, discute-se o quão testável é o *Tomahawk*.
 
 - **Controlabilidade**:
   Do inglês *Controllability*, este critério avalia o grau a que é possível controlar o estado dos componentes a serem testados. 
+  O código do *Tomahawk* encontra-se estruturado em vários módulos distintos, encontrando-se os ficheiros contidos em cada módulo responsáveis por uma função da aplicação distinta. Desta forma é possível testar individualmente cada um dos módulos.
 
 - **Observabilidade**:
   Do inglês *Observability*, este critério avalia o quão observáveis são os resultados de um teste. 
