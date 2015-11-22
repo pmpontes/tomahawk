@@ -23,20 +23,19 @@ Seguidamente, discute-se o quão testável é o *Tomahawk*.
 - **Controlabilidade**:
 
   Do inglês *Controllability*, este critério avalia o grau a que é possível controlar o estado dos componentes a serem testados. 
-  O código do *Tomahawk* encontra-se estruturado em vários pacotes distintos, encarregados da realização de tarefas distintas. Para além disso, os ficheiros contidos nestes pacotes encontram-se por sua vez agrupados em pacotes mais pequenos, encarregados de dividar as complexas tarefas em tarfeas cada vez mais simples. 
+  O código do *Tomahawk* encontra-se estruturado em vários pacotes distintos, encarregados da realização de tarefas distintas (como abordado no [Relatório 3](https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/Report3.md)). Para além disso, os ficheiros contidos nestes pacotes encontram-se por sua vez agrupados em pacotes mais pequenos, encarregados de dividar as complexas tarefas em tarefas cada vez mais simples. 
   Esta hierarquia dos conteúdos permite testar modularmente os componentes da aplicação, permitindo obter um maior controlo sobre o estado do componente a ser testado.
 
 - **Observabilidade**:
 
-  Do inglês *Observability*, este critério avalia o quão observáveis são os resultados de um teste. 
+  Do inglês *Observability*, este critério avalia o quão visíveis são os resultados de um teste.
+  Após uma procura cuidada ao código da aplicação, verificamos que a equipa do *Tomahawk* não criou um único teste, embora tenham desenvolvido um mecanismo para a criação e manutenção destes. 
+  Foi-nos revelado por um dos membros da equipa de desenvolvedores, após esta ter sido inquirida sobre a situação descrita, que dentro do seu conhecimento não tinham sido criados testes.
 
-- **Isolabilidade**:
-
+- **Isolabilidade** e **Separação de responsabilidades**:
+ 
  Do inglês *Isolateability*, este critério avalia o grau em que um componente pode ser testado de forma isolada de todos os outros componentes.
-
-- **Separação de responsabilidades**:
-
-  Do inglês *Separation of concerns*, este critério encontra-se intimamente ligado ao anterior, e avalia o grau em que é possível testar de forma independente um componente, devido a este ter uma responsabilidade bem definida.
+ Do inglês *Separation of concerns*, este critério encontra-se intimamente ligado ao anterior, e avalia o grau em que é possível testar de forma independente um componente, devido a este ter uma responsabilidade bem definida.
   
 
 - **Inteligibilidade**:
