@@ -73,4 +73,4 @@ Teria sido interessante apresentar e analisar dados concretos relativos aos test
 
 Mais ainda, a Dashboard – a plataforma usada para gerir *bugs* e anomalias encontrou-se *offline* durante todo o período de elaboração do presente relatório, pelo que o exercício de selecionar um *bug* para corrigir – por forma a ilustrar o processo de verificação do projeto – não pôde ser realizado.
 
-No final, não foi possível verificar se os processos de verificação e validação aplicados ao projeto *Tomahawk* são adequados.
+No final, não foi possível, com base nas informações disponíveis, determinar se os processos de verificação e validação aplicados ao projeto *Tomahawk* são adequados.
