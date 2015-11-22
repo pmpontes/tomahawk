@@ -13,29 +13,28 @@ Num contexto de desenvolvimento de *software*, é frequente questionarmos se se 
 Importa, pois, analisar os processos de verificação e validação aplicados no desenvolvimento do projeto *Tomahawk*.
 
 ####Grau de testabilidade
-Quão testável é um programa? A testabilidade de um programa é condicionada por fatores como a controlabilidade dos seus componentes, a observabilidade dos resultados de um teste, o quão isoláveis e delimitáveis são os seus componentes e respetivas responsabilidades, o quão heterogéneo e fácil de entender é o sistema.
 
-Seguidamente, discute-se o quão testável é o projeto - por meio de exemplos e outras referências, sempre que tal se considere pertinente.
+ O **Grau de Testabilidade**  é uma propriedade extrínseca a todos os programas, e é tanto maior quanto, dentro de um dado contexto de teste, o programa puder ser testado; sendo mais fácil encontrar uma falha num programa que apresente um elevado grau de testabilidade do que num programa com um reduzido grau de testabiliade.
+ 
+ A testabilidade de um programa não pode ser *medida* diretamente, sendo condicionada por diversos fatores nomeadamente a controlabilidade dos seus componentes, a observabilidade dos resultados de um teste, o quão isoláveis e delimitáveis são os seus componentes e respetivas responsabilidades, ou o quão heterogéneo e fácil de entender é o sistema.
 
-- Controlabilidade
+Seguidamente, discute-se o quão testável é o *Tomahawk*.
 
-Este critério define-se como o grau a que é possível controlar o estado dos componentes a serem testados. 
+- **Controlabilidade**:
+  Do inglês *Controllability*, este critério avalia o grau a que é possível controlar o estado dos componentes a serem testados. 
 
+- **Observabilidade**:
+  Do inglês *Observability*, este critério avalia o quão observáveis são os resultados de um teste. 
 
-- Observabilidade
+- **Isolabilidade**:
 
-A observabilidade determina o quão observáveis são os resultados de um teste. 
+ Do inglês *Isolateability*, este critério avalia o grau em que um componente pode ser testado de forma isolada de todos os outros componentes.
+ O
 
+- **Separação de responsabilidades**:
 
-- «Isolabilidade»
-
-Não sendo parte da Língua Portuguesa, o termo «isolabilidade» respeita ao grau de testabilidade de um componente, isoladamene.
-
-
-- Separação de responsabilidades
-
-Este critério está intimamente ligado ao anterior, e implica a delimitação de responsabilidades entre os vários componentes a ser testados.
-
+  Do inglês *Separation of concerns*, este critério encontra-se intimamente ligado ao anterior, e avalia o grau em que é possível testar de forma independente um componente, devido a este ter uma responsabilidade bem definida.
+  
 
 - **Inteligibilidade**:
 
@@ -47,12 +46,13 @@ Este critério está intimamente ligado ao anterior, e implica a delimitação d
 
   Do inglês *Heterogeneity*, este critério avalia a necessidade de serem realizados em paralelo diversos métodos e ferramentas de teste, devido ao uso de diferentes tecnologias.
   O *Tomahawk* é uma aplicação multiplataforma, pelo que teve de ser desenvolvido tendo em mente que diferentes plataformas funcionam de maneiras distintas. Surge então a necessidade de, para cada plataforma, serem criados bancos de testes adequados para o ambiente em que são vão executados.   
-  Além disso, o *Tomahawk* não só de *APIs* externas, como por exemplo a *Playdar* mas também dos *plugins* necessários ao funcionamento da aplicação, sendo necessários distintos testes para testar todos estes distintos componentes.    
+  Além disso, o *Tomahawk* depende não só de *APIs* externas, como por exemplo a *Playdar* mas também dos *plugins* criados e necessários ao funcionamento da aplicação, sendo necessários distintos testes para testar todos estes distintos componentes.    
   Pode assim afirmar-se que o *Tomahawk* é heterogéneo.
   
 ________________________________________________________________________
 Perante as considerações acima, é possível concluir que (…)
 (Discuss how 'testable' is the program. Discuss how to improve the testability of software components.)
+_________________________________________________________________________
 
 ####Testes em números
 (identificar diversos tipos de teste)
