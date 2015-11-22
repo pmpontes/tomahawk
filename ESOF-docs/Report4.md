@@ -75,8 +75,12 @@ http://avandeursen.com/2013/11/19/test-coverage-not-for-managers/
 Escolher um bug fácil ou já corrigido
 
 ####Análise Crítica
-Concluindo, constata-se que o Tomahawk é um projeto (analisar testabilidade).
+De modo geral, parece algo notória a falta de preocupação por parte da equipa do *Tomahawk* em sistematizar e automatizar a componente de verificação e validação de software, sendo que tal poderá ficar a dever-se à natureza *open source* do projeto.
 
-Teria sido interessante apresentar e analisar dados concretos relativos aos testes a que o código do projeto é sujeito. Todavia, não foi possível obter esses testes ou os seus resultados. Os únicos testes disponíveis – através do repositório – estão desatualizados, facto que pode indicar que, uma vez desenvolvido o *core* da aplicação, a definição de testes deixou de ser uma prioridade.
+Se, por um lado, o projeto se encontra relativamente bem estruturado – existindo um delineamento das funcionalidades que cada componente implementa –, por outro, encontra-se muito pouco documentado, pelo que a tarefa de definir testes é algo complexa e exige algum conhecimento da API – o que dificulta a compreensão do componente a ser testado e torna o projeto menos apelativo a potenciais novos colaboradores.
+
+Teria sido interessante apresentar e analisar dados concretos relativos aos testes a que o código do projeto é sujeito. Todavia, não foi possível obter esses testes ou os seus resultados. Os únicos testes disponíveis estão desatualizados, facto que pode indicar que a definição de testes deixou de ser uma prioridade.
 
 Mais ainda, a Dashboard – a plataforma usada para gerir *bugs* e anomalias encontrou-se *offline* durante todo o período de elaboração do presente relatório, pelo que o exercício de selecionar um *bug* para corrigir – por forma a ilustrar o processo de verificação do projeto – não pôde ser realizado.
+
+No final, não foi possível verificar se os processos de verificação e validação aplicados ao projeto *Tomahawk* são adequados.
