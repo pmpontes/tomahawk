@@ -68,6 +68,7 @@ De modo geral, parece algo notória a falta de preocupação por parte da equipa
 Se, por um lado, o projeto se encontra relativamente bem estruturado – existindo um delineamento das funcionalidades que cada componente implementa –, por outro, encontra-se muito pouco documentado, pelo que a tarefa de definir testes é algo complexa e exige algum conhecimento da API – o que, além de dificultar a compreensão do componente a ser testado, torna o projeto menos apelativo a potenciais novos colaboradores.
 
 Dada a existência de tão poucos testes e destes terem acabarem por ter tão baixa cobertura, podemos concluir que este projeto necessita de um maior investimento na criação de testes, sendo este um problema que os maiores contribuidores admitem que deve ser tratado com urgência.
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/irclog_testing.png?raw=true" alt="IRC chat log.">
 
 Teria sido interessante apresentar e analisar dados concretos relativos aos testes a que o código do projeto é sujeito. Todavia, não foi possível obter esses testes ou os seus resultados. Os únicos testes disponíveis estão desatualizados, facto que comprova que a definição de testes deixou de ser uma prioridade.
 
