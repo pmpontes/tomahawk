@@ -13,7 +13,7 @@ Nesta fase final, procedeu-se à identificação e posterior implementação de 
 
 
 ####A *feature*
-Como referido anteriormente, o *Tomahawk* tem uma [página](https://tomahawk.uservoice.com/) através da qual os utilizadores podem apresentar sugestões de funcionalidades. Após cuidada análise, e tendo em conta o tempo de que se dispunha para executar a evolução, optou-se por evoluir uma funcionalidade que aparentava, por um lado, ser simples e, por outro, de alguma utilidade. 
+Como referido anteriormente, o *Tomahawk* tem uma [página](https://tomahawk.uservoice.com/) através da qual os utilizadores podem apresentar sugestões de funcionalidades. Após cuidada análise,  optou-se por evoluir uma funcionalidade que aparentava, por um lado, ser simples e, por outro, de alguma utilidade. 
 Assim, a escolha recaiu sobre um [pedido](https://tomahawk.uservoice.com/forums/224204-feature-requests/suggestions/9735033-shut-down-the-player-when-you-press-the-close-butt) de um utilizador no sentido de disponibilizar uma opção que permitisse terminar a aplicação quando se fecha a sua janela, em vez de ficar a correr em *background*.
 
 
@@ -26,4 +26,4 @@ Após a implementação da nova funcionalidade, foi feito um *pull request*, com
 
 
 ####Análise Crítica
-Apesar de a funcionalidade selecionada ter um nível de complexidade relativamente reduzido, considera-se a parca documentação e organização do código  do projeto tornaram acentou a dificuldade da tarefa.
+Apesar de a funcionalidade selecionada não ter um nível de complexidade elevado, considera-se que a parca documentação e organização do código do projeto tornaram acentou a dificuldade da tarefa.
