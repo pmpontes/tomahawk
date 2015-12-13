@@ -687,7 +687,11 @@ TomahawkWindow::setupSignals()
     connect( ac->getAction( "importPlaylist" ), SIGNAL( triggered() ), SLOT( loadPlaylist() ) );
     connect( ac->getAction( "whatsnew_0_8" ), SIGNAL( triggered() ), SLOT( showWhatsNew_0_8() ) );
     connect( ac->getAction( "aboutTomahawk" ), SIGNAL( triggered() ), SLOT( showAboutTomahawk() ) );
+
+    
     connect( ac->getAction( "quit" ), SIGNAL( triggered() ), qApp, SLOT( quit() ) );
+
+
     connect( ac->getAction( "showOfflineSources" ), SIGNAL( triggered() ), SLOT( showOfflineSources() ) );
 
 #if defined( Q_OS_MAC )
@@ -759,11 +763,23 @@ TomahawkWindow::changeEvent( QEvent* e )
 }
 
 
+// CHANGED
 void
 TomahawkWindow::closeEvent( QCloseEvent* e )
 {
+
+    // CHANGED change according to definitions
+    TomahawkSettings* s = TomahawkSettings::instance();
+    //QMainWindow::setQuitOnLastWindowClosed(s->exitOnClose());
+
+	if(s->exitOnClose()){
+        qApp->quit();
+        return;
+    }
+
 #ifndef Q_OS_MAC
-    if ( e->spontaneous() && QSystemTrayIcon::isSystemTrayAvailable() )
+    // CHANGED
+    if (!s->exitOnClose() && e->spontaneous() && QSystemTrayIcon::isSystemTrayAvailable())
     {
         hide();
         e->ignore();
@@ -771,7 +787,7 @@ TomahawkWindow::closeEvent( QCloseEvent* e )
     }
 #endif
 
-    QMainWindow::closeEvent( e );
+    QMainWindow::closeEvent(e);    
 }
 
 

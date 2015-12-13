@@ -100,7 +100,15 @@ SettingsDialog::SettingsDialog(QObject *parent )
 
     m_accountsWidgetUi->accountsFilterCombo->setFocusPolicy( Qt::NoFocus );
     m_dialog = new QToolbarTabDialog;
+
+
+
+
     TomahawkSettings* s = TomahawkSettings::instance();
+    
+// CHANGED
+    m_advancedWidgetUi->checkBoxExitOnClose->setChecked( s->exitOnClose());
+
 
     m_advancedWidgetUi->checkBoxReporter->setChecked( s->crashReporterEnabled() );
     m_advancedWidgetUi->checkBoxHttp->setChecked( s->httpEnabled() );
@@ -298,6 +306,10 @@ SettingsDialog::saveSettings()
     TomahawkSettings* s = TomahawkSettings::instance();
 
     s->setCrashReporterEnabled( m_advancedWidgetUi->checkBoxReporter->checkState() == Qt::Checked );
+
+    // CHANGED
+    s->setExitOnClose( m_advancedWidgetUi->checkBoxExitOnClose->checkState() == Qt::Checked );
+
     s->setHttpEnabled( m_advancedWidgetUi->checkBoxHttp->checkState() == Qt::Checked );
     s->setHttpBindAll( m_advancedWidgetUi->checkBoxListenApi->checkState() == Qt::Checked );
     s->setSongChangeNotificationEnabled( m_advancedWidgetUi->checkBoxSongChangeNotifications->checkState() == Qt::Checked );

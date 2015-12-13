@@ -160,6 +160,10 @@ public:
     bool crashReporterEnabled() const; /// true by default
     void setCrashReporterEnabled( bool enable );
 
+    // CHANGED
+    bool exitOnClose() const; /// true by default
+    void setExitOnClose( bool enable );
+
     bool songChangeNotificationEnabled() const; /// true by default
     void setSongChangeNotificationEnabled( bool enable );
 

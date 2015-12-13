@@ -887,6 +887,21 @@ TomahawkSettings::setCrashReporterEnabled( bool enable )
 }
 
 
+// CHANGED
+bool
+TomahawkSettings::exitOnClose() const
+{
+    return value( "ui/exitOnClose", false ).toBool();
+}
+
+// CHANGED
+void
+TomahawkSettings::setExitOnClose( bool enable )
+{
+    setValue( "ui/exitOnClose", enable );
+}
+
+
 bool
 TomahawkSettings::songChangeNotificationEnabled() const
 {
