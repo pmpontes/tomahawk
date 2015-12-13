@@ -18,12 +18,15 @@ Assim, a escolha recaiu sobre um [pedido](https://tomahawk.uservoice.com/forums/
 
 
 ####Componentes que implementam a *feature*
-Apesar de se  tratar uma funcionalidade de relativa simplicidade e de a única componente lógica envolvida ser a interface de utilizador, :
+Apesar de se  tratar uma funcionalidade de relativa simplicidade e de a única componente lógica envolvida ser a interface de utilizador, constatou-se que :
 
 
 ####Submissão de patch
-Após a implementação da nova funcionalidade, foi feito um *pull request*, com vista à sua integração no projeto.
+Após a implementação da nova funcionalidade, foi feito um [*pull request*](), com vista à sua integração no projeto.
 
 
 ####Análise Crítica
-Apesar de a funcionalidade selecionada não ter um nível de complexidade elevado, considera-se que a parca documentação e organização do código do projeto tornaram acentou a dificuldade da tarefa.
+Apesar de a funcionalidade selecionada aparentar ter um nível de complexidade relativamente reduzido, considera-se que essa dificuldade foi acentuada pela parca organização do código do projeto. A isso somou-se o facto de a página com as instruções de *build* se ter encontrado *offline* durante grande parte do tempo disponível para a conclusão desta tarefa.
+Como foi dito [anteriormente](https://github.com/pmpontes/tomahawk/edit/master/ESOF-docs/Report4.md), a diminuta documentação do código é um fator que torna difícil a tarefa daqueles que pretendem colaborar com o projeto, pois torna necessário algum conhecimento da estrutura do projeto para que haja produtividade.
+Sendo de natureza *open-source* e estando disponível em diferentes plataformas, qualquer um pode, dentro das competências, contribuir para o desenvolvimento do *Tomahwak*.
+
