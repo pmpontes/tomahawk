@@ -30,5 +30,5 @@ Apesar de a funcionalidade selecionada aparentar ter um nível de complexidade r
 
 Como foi dito [anteriormente](https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/Report4.md), a diminuta documentação do código é um fator que torna difícil a tarefa daqueles que pretendem colaborar com o projeto, pois torna necessário algum conhecimento da estrutura do projeto para que haja produtividade.
 
-Sendo de natureza *open-source* e estando disponível em diferentes plataformas, qualquer um pode, dentro das competências, contribuir para o desenvolvimento do *Tomahwak*.
+Tratando-se de um projeto *open-source* e estando disponível em diferentes plataformas, qualquer um pode, dentro das competências, contribuir para o desenvolvimento do *Tomahwak*.
 
