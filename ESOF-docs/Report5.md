@@ -18,11 +18,16 @@ Assim, a escolha recaiu sobre um [pedido](https://tomahawk.uservoice.com/forums/
 
 
 ####Componentes que implementam a *feature*
-Apesar de se  tratar uma funcionalidade de relativa simplicidade e de a única componente lógica envolvida ser a interface de utilizador, constatou-se que :
+Dada a natureza da funcionalidade, a principal componente lógica envolvida é a interface - especificamente, a caixa de diálogo com as opções de configuração da aplicação, *Settings_Advanced.ui*. 
+Adicionalmente, foi necessário acrescentar ao conjunto de configurações da aplicação - implementado em *TomahawkSettings.h* e *TomahawkSettings.c* - e uma condição *if* na parte que lida com o fecho da janela da aplicação, *TomahawkWindow.cpp*.
 
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/checked.jpg?raw=true" alt="Tomahawk configurations.">
+
+<img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/unchecked.jpg?raw=true" alt="Tomahawk configurations.">
+Janela de configuração do *Tomahawk*.
 
 ####Submissão de patch
-Após a implementação da nova funcionalidade, foi feito um [*pull request*](), com vista à sua integração no projeto.
+Após a implementação da nova funcionalidade, foi feito um [*pull request*](https://github.com/tomahawk-player/tomahawk/pull/362), com vista à sua integração no projeto.
 
 
 ####Análise Crítica
