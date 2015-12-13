@@ -770,7 +770,6 @@ TomahawkWindow::closeEvent( QCloseEvent* e )
 
     // CHANGED change according to definitions
     TomahawkSettings* s = TomahawkSettings::instance();
-    //QMainWindow::setQuitOnLastWindowClosed(s->exitOnClose());
 
 	if(s->exitOnClose()){
         qApp->quit();
