@@ -24,7 +24,7 @@ Adicionalmente, foi necessário acrescentar ao conjunto de configurações da ap
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/check.jpg?raw=true" alt="Tomahawk configurations.">
 <img src="https://github.com/pmpontes/tomahawk/blob/master/ESOF-docs/resources/uncheck.jpg?raw=true" alt="Tomahawk configurations.">
 
-Janela de configuração do *Tomahawk*, com a funcionalidade *Exit on close* ativada e desativada.
+Janela de configuração do *Tomahawk*, com a funcionalidade *exit on close*, ativada e desativada.
 
 ####Submissão de patch
 Após a implementação da nova funcionalidade, foi feito um [*pull request*](https://github.com/tomahawk-player/tomahawk/pull/362), com vista à sua integração no projeto.
